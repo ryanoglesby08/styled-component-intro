@@ -59,11 +59,11 @@ const fontWeights = {
 }
 
 const spaces = {
-  baseInRem: 1,
-  get base() { return `${this.baseInRem}rem` },
-  get xTight(){ return `${this.baseInRem * .25}rem` },
-  get tight(){ return `${this.baseInRem * .5}rem` },
-  get wide(){ return `${this.baseInRem * 2}rem` } 
+  _baseInRem: 1,
+  get base() { return `${this._baseInRem}rem` },
+  get xTight(){ return `${this._baseInRem * .25}rem` },
+  get tight(){ return `${this._baseInRem * .5}rem` },
+  get wide(){ return `${this._baseInRem * 2}rem` } 
 }
 
 
