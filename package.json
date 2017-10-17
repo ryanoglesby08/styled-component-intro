@@ -14,15 +14,15 @@
     "@storybook/addon-centered": "^3.2.7",
     "@storybook/addon-info": "^3.2.9",
     "@storybook/addon-knobs": "^3.2.8",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "styled-components": "^2.1.2",
-    "styled-media-query": "^2.0.1",
-    "styled-tools": "^0.2.2"
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-media": "^1.6.1",
+    "react-native-web": "^0.1.9"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.2.6",
     "@storybook/addon-links": "^3.2.6",
-    "@storybook/react": "^3.2.8"
+    "@storybook/react": "^3.2.8",
+    "babel-preset-react-native": "^4.0.0"
   }
 }

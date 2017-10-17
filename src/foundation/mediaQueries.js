@@ -1,4 +1,4 @@
-import { generateMedia } from 'styled-media-query';
+// import { generateMedia } from 'styled-media-query';
 
 const breakPoints = {
   xs: '576px',
@@ -7,4 +7,4 @@ const breakPoints = {
   lg: '1200px'
 };
 
-export default generateMedia(breakPoints);
+// export default generateMedia(breakPoints);
